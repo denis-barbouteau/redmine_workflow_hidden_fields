@@ -1,4 +1,5 @@
 require 'redmine'
+require_relative 'lib/redmine_workflow_hidden_fields/hooks'
 
 RedmineApp::Application.config.after_initialize do
 #ActiveSupport::Reloader.to_prepare do

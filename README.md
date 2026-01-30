@@ -17,7 +17,9 @@ Corresponding issue on redmine.org: [#12005](http://www.redmine.org/issues/12005
 
 ### Compatibility
 
-The plugin was developed and tested with Redmine version 4.0.x
+- Redmine 5.1.x
+- Redmine 5.0.x
+- Redmine 4.0.x
 
 
 ### Installation

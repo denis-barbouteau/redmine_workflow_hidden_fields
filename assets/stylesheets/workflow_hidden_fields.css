@@ -1,0 +1,5 @@
+/* Fix for Redmine's .hidden { display: none; } conflicting with workflow permission status */
+table.workflows.fields_permissions td.hidden {
+  display: table-cell !important;
+  background-color: #ffeeba;
+}
