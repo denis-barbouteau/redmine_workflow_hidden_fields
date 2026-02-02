@@ -17,10 +17,7 @@ Corresponding issue on redmine.org: [#12005](http://www.redmine.org/issues/12005
 
 ### Compatibility
 
-- Redmine 5.1.x
-- Redmine 5.0.x
-- Redmine 4.0.x
-
+- Redmine 6.1.X
 
 ### Installation
 
