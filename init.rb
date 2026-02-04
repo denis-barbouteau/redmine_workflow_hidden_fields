@@ -26,12 +26,12 @@ RedmineApp::Application.config.after_initialize do
 end
 
 Redmine::Plugin.register :redmine_workflow_hidden_fields do
-  requires_redmine :version_or_higher => '3.4.0'
+  requires_redmine :version_or_higher => '6.1.1'
 
   name 'Redmine Workflow Hidden Fields plugin'
-  author 'Alexander Wais, David Robinson, et al.'
+  author 'Alexander Wais, David Robinson, al., Denis Barbouteau'
   description "Provides a 'hidden' issue field permission for workflows"
   version '0.5.1'
-  url 'https://github.com/alexwais/redmine_workflow_hidden_fields'
+  url 'https://github.com/denis-barbouteau/redmine_plugin_computed_custom_field'
   author_url 'http://www.redmine.org/issues/12005'
 end
