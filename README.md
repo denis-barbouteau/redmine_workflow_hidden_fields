@@ -27,6 +27,8 @@ Corresponding issue on redmine.org: [#12005](http://www.redmine.org/issues/12005
 
 - Put the plugin folder into your Redmine's /plugin directory.
 
+- bundle exec rake redmine:plugins:migrate NAME=redmine_workflow_hidden_fields RAILS_ENV=production
+
 - Restart your Redmine.
 
 
