@@ -6,7 +6,7 @@ module RedmineWorkflowHiddenFields
 			%w(author status priority assigned_to category fixed_version).each do |attribute|
 				unless issue.disabled_core_fields.include?(attribute+"_id") or issue.hidden_attribute_names(user).include?(attribute+"_id")
 					if html
-						items << content_tag('strong', "#{l("field_#{attribute}")}: ") + (issue.send attribute)
+						items << content_tag('strong', "#{l("field_#{attribute}")}: ") + (issue.send attribute).to_s
 					else
 						items << "#{l("field_#{attribute}")}: #{issue.send attribute}"
 					end
